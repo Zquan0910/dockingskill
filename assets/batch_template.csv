@@ -1,0 +1,5 @@
+job_id,gene_name,compound_name,pubchem_cid,protein_path,ligand_input
+JOB001,ZBTB10,quercetin,5280343,,
+JOB002,EGFR,gefitinib,123631,,
+JOB003,PMPCA,kaempferol,5280863,,
+JOB004,TP53,aspirin,,,CC(=O)Oc1ccccc1C(=O)O

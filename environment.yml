@@ -1,0 +1,25 @@
+# Verified Windows runtime snapshot, not a cross-platform or fully solved lockfile.
+# Existing prefix: D:/GeneProteinDocking/env (reuse; no installation needed).
+# External Vina 1.2.7: D:/ChatGPT/geneprotein-dock-runs/tools/vina_1.2.7_win.exe
+# Optional local-pocket P2Rank: D:/GeneProteinDocking/tools/p2rank_run.bat
+# All conda/pip caches, temporary files and any new prefix must stay on D:.
+name: dockingskill
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11.15
+  - numpy=1.26.4
+  - rdkit=2026.03.4
+  - meeko=0.7.1
+  - gemmi=0.7.5
+  - biopython=1.87
+  - pandas=3.0.3
+  - scipy=1.17.1
+  - pyyaml=6.0.3
+  - openbabel=3.2.1
+  - pymol-open-source=3.1.0
+  - pillow=12.3.0
+  - pip
+  - pip:
+      - plip==3.0.1
+      - lxml==6.1.3

@@ -1,0 +1,6 @@
+interface:
+  display_name: "DockingSkill"
+  short_description: "Whole-protein Vina docking and PyMOL figures"
+  default_prompt: "Use $dockingskill to dock a human gene target and compound with a whole-protein box, exhaustiveness 64, and borderless PyMOL figures with yellow dashed zoom connectors."
+policy:
+  allow_implicit_invocation: true

@@ -1,0 +1,17 @@
+software:
+  vina_executable: D:/ChatGPT/geneprotein-dock-runs/tools/vina_1.2.7_win.exe
+  p2rank_command: D:/GeneProteinDocking/tools/p2rank_run.bat
+docking:
+  exhaustiveness: 64
+  num_modes: 10
+  energy_range: 5
+  seed: 20260715
+  cpu: 0
+  timeout: 7200
+  mode: whole
+  padding: 5.0
+structure:
+  minimum_coverage: 0.95
+render:
+  enabled: true
+  rows_per_page: 4
